@@ -1,0 +1,8 @@
+[package]
+name = "extract_filetype_from_zip"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+zip = "0.6"
